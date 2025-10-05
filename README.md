@@ -25,17 +25,21 @@ The database consists of six main entities:
 🗂️ Repository Structure  
 Air-Cargo-Database-Analysis/
 │
-├── datasets/ # CSV datasets used for the project
+├── datasets/                          
+│   ├── customer.csv
+│   ├── aircraft.csv
+│   ├── routes.csv
+│   ├── ticket_details.csv
 │
-├── sql_scripts/ # SQL scripts for creation, analysis, and optimization
-│ ├── Air_Cargo_Analysis_Full_Project.sql
+├── sql_scripts/
+│   ├── Air_Cargo_Analysis_Full_Project.sql      # All 20 SQL tasks
+│   
+├── documentation/
+│   ├── Air_Cargo_Problem_Statement.pdf
+│   ├── Air_Cargo_SQL_Queries_and_Outputs.pdf
+│   ├── Assignment_Theory.pdf
 │
-├── documentation/ # Problem statement, theory, and visuals
-│ ├── Air_Cargo_Problem_Statement.pdf
-│ ├── Air_Cargo_SQL_Queries_and_Outputs.pdf
-│ ├── Assignment_Theory.pdf
-│
-└── README.md # Project summary and usage guide
+└── README.md
 
 
 ⚙️ Tools & Technologies  
